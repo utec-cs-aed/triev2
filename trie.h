@@ -5,10 +5,10 @@ using namespace std;
 class Trie
 {
 public:
-    void insert(string key);
-    bool search(string key);
-    void remove(string key);        
+    virtual void insert(string key) = 0;
+    virtual bool search(string key) = 0;
+    virtual void remove(string key) = 0;        
     
     //imprime ordenado
-    string toString(string sep=",");
+    virtual string toString(string sep=",") = 0;
 };
