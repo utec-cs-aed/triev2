@@ -30,6 +30,6 @@ public:
     void remove(string key);    
     
     //imprime ordenado
-    string toString(string sep=",");
+    string toString(string sep);
 
 };
