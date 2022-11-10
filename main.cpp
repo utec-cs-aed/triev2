@@ -13,7 +13,7 @@ void testTrie(Trie* trie, vector<string> diccionario){
     ASSERT(trie->search("rosa") == false, "The function search is not working");
     trie->remove("roma");
     trie->remove("amorfo");
-    ASSERT(trie->display() == "amiga amor amorcito rata romano romario rosario ", "The function remove is not working");
+    ASSERT(trie->toString() == "amiga amor amorcito rata romano romario rosario ", "The function remove is not working");
 }
 
 int main(){
