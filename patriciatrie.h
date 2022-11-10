@@ -28,7 +28,7 @@ public:
     bool search(string key);
     void remove(string key);
 
-    //imprime ordenado, linea por linea 
-    string display();
+    //imprime ordenado
+    string toString(string sep=",");
 
 };
