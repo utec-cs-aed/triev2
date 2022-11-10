@@ -10,5 +10,5 @@ public:
     void remove(string key);        
     
     //imprime ordenado, linea por linea 
-    string display();
+    string toString();
 };
