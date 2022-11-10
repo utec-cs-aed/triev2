@@ -9,6 +9,6 @@ public:
     bool search(string key);
     void remove(string key);        
     
-    //imprime ordenado, linea por linea 
-    string toString();
+    //imprime ordenado
+    string toString(string sep=",");
 };
